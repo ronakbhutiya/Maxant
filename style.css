@@ -149,7 +149,6 @@ body {
   justify-content: center;
   align-items: center;
   border: 0.01px solid rgb(206, 198, 198);
-  box-shadow: 0.3px 0.3px 0.5px rgb(57, 55, 55);
   gap: 2.4rem;
 }
 .box-heading {
