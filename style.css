@@ -7,6 +7,7 @@ html {
   font-size: 62.5%;
   font-family: "Mulish", sans-serif;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 body {
   overflow-x: hidden;
@@ -333,9 +334,9 @@ select {
   font-size: 2.4rem;
 }
 .grid {
- display: grid;
- grid-template-columns: 1fr 1fr;
- gap: 2.4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2.4rem;
 }
 /* --------------------------.section-testimonials -------------------------- */
 .section-testimonials {
@@ -389,7 +390,7 @@ footer {
   font-size: 1.5rem;
   color: #fff;
 }
-.footer span{
+.footer span {
   color: #ff511a;
 }
 /* -------------------media-query--------------------- */
@@ -407,7 +408,7 @@ footer {
     /* display: none; */
     width: 100%;
     height: 100vh;
-    background-color: #5b5757;
+    background-color: rgb(91, 87, 87, 0.96);
     position: absolute;
     top: 0;
     left: 0;
