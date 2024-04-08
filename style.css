@@ -147,7 +147,7 @@ body {
 .box {
   padding: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   border: 0.01px solid rgb(206, 198, 198);
   gap: 2.4rem;
